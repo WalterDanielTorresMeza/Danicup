@@ -18,7 +18,7 @@ function App() {
 <br />
 
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
@@ -27,11 +27,6 @@ function App() {
 
  <br />
 
- <img
-   src="/a2.png"
-   alt="Animación celebración"
-   className="li"
- />
 
  <p><h1>FECHA Y HORA</h1></p> 
  <p className="l01">Jueves 29 de Mayo | 9:30 am</p>
@@ -40,7 +35,7 @@ function App() {
   href={
     `https://calendar.google.com/calendar/render?action=TEMPLATE` +
     `&text=${encodeURIComponent('Cumpleaños de Daniela Nicole')}` +
-    `&dates=${'20250605'}/${'20250605'}` +           // evento todo el día 5 de junio 
+    `&dates=${'20250528'}/${'20250528'}` +           // evento todo el día 5 de junio 
     `&details=${encodeURIComponent('¡No faltes a la celebración!')}` +
     `&location=${encodeURIComponent('')}`
   }
@@ -57,7 +52,7 @@ function App() {
 <br />
 
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
@@ -65,7 +60,7 @@ function App() {
 <a
     href={
       'https://www.google.com/maps/place/Danaus+School/@20.6160043,-100.3804581,17z/data=!3m1!4b1!4m6!3m5!1s0x85d35c745b968ca5:0x6997a2ca4ca0e68e!8m2!3d20.6160043!4d-100.3804581!16s%2Fg%2F11g9ntycg8?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D' +
-      encodeURIComponent('Salón Jardín Alegría, Pachuca, Hidalgo')
+      encodeURIComponent('')
     }
     target="_blank"
     rel="noopener noreferrer"
@@ -79,14 +74,14 @@ function App() {
 
 <br />
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
 
 <p className="l01">¡No faltes! Será una celebración muy especial</p>
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
 />
