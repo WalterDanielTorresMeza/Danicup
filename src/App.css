@@ -1,0 +1,256 @@
+/* src/App.css */
+
+/* 1) Reset y box-sizing global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2) html, body, #root para que el contenedor pueda crecer */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url('/public/fondo.svg');
+  background-size: 100% auto;
+  background-attachment: scroll;    /* pinta detrás al hacer scroll */
+  overflow-x: hidden;
+}
+
+/* 3) Contenedor con fondo y flex vertical */
+.contenedor {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;   /* apila de arriba abajo */
+  align-items: center;      /* centra horizontalmente */
+  gap: 30px;                /* espacio entre tarjetas */
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* Fondo aquí */
+}
+
+/* 4) Glass-morphism en cada tarjeta */
+.invitacion {
+  width: 100%;
+  max-width: 800px;
+  padding: 40px 30px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: #222;
+}
+
+/* 5) Tipografía dentro de la tarjeta */
+.invitacion h1 {
+  font-size: 2.5rem;
+  color: #d6336c;
+  margin-bottom: 15px;
+}
+.invitacion h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.invitacion p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+/* 6) Botón */
+.invitacion button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.invitacion button:hover {
+  background-color: #d6336c;
+}
+
+/* 7) Responsive (móvil) */
+@media (max-width: 600px) {
+  /* 7.1) Fondo reajustado */
+  .contenedor {
+    background-position: top center;
+    background-size: auto 100%;  /* altura = contenedor, ancho ajusta */
+  }
+
+  /* 7.2) Tarjeta más compacta */
+  .invitacion {
+    max-width: 95%;
+    padding: 30px 20px;
+    border-radius: 12px;
+  }
+  .invitacion h1 { font-size: 2rem; }
+  .invitacion h2 { font-size: 1.4rem; }
+  .invitacion p  { font-size: 1rem; }
+}
+
+.foto-prima {
+  margin: 0px auto;     /* centrado y separación */
+  width: 240px;          /* ajusta el tamaño */
+  height: auto;
+
+}
+
+
+/* src/App.css */
+
+/* 0) Importar Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto+Mono:wght@600&display=swap');
+/* —— Nuevo estilo tipográfico para el contador —— */
+.countdown {
+  display: inline-flex;
+  justify-content: center;
+  gap: 1px;
+  margin: 1px auto;
+  padding: 1px 1px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* Aquí usamos Poppins para el contenedor */
+  font-family: 'Poppins', sans-serif;
+  color: #d6336c;
+}
+
+/* Cada “unidad” de tiempo en monospace */
+.countdown span {
+  display: inline-block;
+  background-color: #a80054;
+  padding: 8px 14px;
+  border-radius: 6px;
+  min-width: 50px;
+  text-align: center;
+
+  /* Roboto Mono para los números */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+/* Dos puntos más discretos */
+.countdown span + span::before {
+  content: ":";
+  margin-right: 6px;
+  color: #d6336c;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .countdown {
+    gap: 8px;
+    padding: 1px 1px;
+  }
+  .countdown span {
+    padding: 20px 7px;
+    min-width: 40px;
+    font-size: 1rem;
+  }
+}
+
+/* Hacemos que los GIFs sean totalmente responsivos */
+.gif-prima {
+  display: block;        /* para que respete el margin auto */
+  margin: 20px auto;     /* separarlo vertical y centrar */
+  width: 100%;           /* ocupa todo el ancho disponible */
+  max-width: 400px;      /* pero no pase de 400px */
+  height: auto;          /* mantiene proporción */
+}
+
+.li {
+  display: block;        /* para que respete el margin auto */
+  margin: 0px auto;     /* separarlo vertical y centrar */
+  width: 100%;           /* ocupa todo el ancho disponible */
+  max-width: 400px;      /* pero no pase de 400px */
+  height: auto;          /* mantiene proporción */
+}
+.namenicole {
+  display: block;        /* para que respete el margin auto */
+  margin: 40px auto;     /* separarlo vertical y centrar */
+  width: 100%;           /* ocupa todo el ancho disponible */
+  max-width: 999px;      /* pero no pase de 400px */
+  height: auto;          /* mantiene proporción */
+}
+
+.calendar-btn{
+    margin: 0px auto;     /* centrado y separación */
+  width: 200px;          /* ajusta el tamaño */
+  height: auto;
+}
+
+.map-btn{
+    margin: 0px auto;     /* centrado y separación */
+  width: 200px;          /* ajusta el tamaño */
+  height: auto;
+
+}
+
+/* Al final de App.css, tras mover el @import arriba */
+.invitacion p.l01 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;       /* ajusta al tamaño que necesites */
+  line-height: 1.2;
+}
+
+
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.rsvp-form input,
+.rsvp-form select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.rsvp-form button {
+  padding: 10px;
+  background-color: #d6336c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.confirm-btn{
+  display: block;        /* para que respete el margin auto */
+  margin: 0px auto;     /* separarlo vertical y centrar */
+  width: 100%;           /* ocupa todo el ancho disponible */
+  max-width: 900px;      /* pero no pase de 400px */
+  height: auto;          /* mantiene proporción */
+}
+
+.gif-prima{
+  display: block;        /* para que respete el margin auto */
+  margin: 0px auto;     /* separarlo vertical y centrar */
+  width: 100%;           /* ocupa todo el ancho disponible */
+  max-width: 200px;      /* pero no pase de 400px */
+  height: auto;          /* mantiene proporción */
+}
