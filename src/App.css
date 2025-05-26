@@ -18,7 +18,7 @@ body,
 }
 
 body {
-  background-image: url('/public/fondo.svg');
+  background-image: url('/public/fon.png');
   background-size: 100% auto;
   background-attachment: scroll;    /* pinta detrás al hacer scroll */
   overflow-x: hidden;
