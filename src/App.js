@@ -18,7 +18,7 @@ function App() {
 <br />
 
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
@@ -28,7 +28,7 @@ function App() {
  <br />
 
  <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
@@ -53,7 +53,7 @@ function App() {
 <br />
 
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
@@ -75,14 +75,14 @@ function App() {
 
 <br />
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
 
 <p className="l01">¡No faltes! Será una celebración muy especial</p>
 <img
-   src="/a2.png"
+   src="/aa.png"
    alt="Animación celebración"
    className="li"
 />
