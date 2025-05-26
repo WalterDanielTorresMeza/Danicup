@@ -67,7 +67,7 @@ function App() {
     rel="noopener noreferrer"
   >
 <img
-      src="/danos.png"
+      src="/danas.png"
       alt="Ver en Google Maps"
       className="map-btn"
 />
