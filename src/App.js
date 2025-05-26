@@ -65,6 +65,7 @@ function App() {
     target="_blank"
     rel="noopener noreferrer"
   >
+<p className="l01">DANAUS SCHOOL</p>      
 <img
       src="/danas.png"
       alt="Ver en Google Maps"
