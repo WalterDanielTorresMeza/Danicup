@@ -47,11 +47,7 @@ function App() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <img
-    src="/cal.png"
-    alt="Agregar al calendario"
-    className="calendar-btn"
-  />
+
 </a>
 <br />
 <br />
