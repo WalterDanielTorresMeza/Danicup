@@ -77,17 +77,9 @@ function App() {
    alt="Animación celebración"
    className="li"
 />
-
-
-
-
-
 <br />
-
 </div>
-
 </div>
-
 );
 }
 
