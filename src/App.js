@@ -14,12 +14,7 @@ function App() {
  />
 
 <p className="l01">Te invito a celebrar mis 6 años</p>
-
-<br />
  <br />
-
- <br />
-
  <img
    src="/aa.png"
    alt="Animación celebración"
@@ -43,8 +38,6 @@ function App() {
 
 </a>
 <br />
-<br />
-
 <img
    src="/aa.png"
    alt="Animación celebración"
