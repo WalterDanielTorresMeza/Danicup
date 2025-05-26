@@ -57,6 +57,7 @@ function App() {
    className="li"
  />
 <p><h1>LUGAR</h1></p>
+     <p className="l01">DANAUS SCHOOL</p>  
 <a
     href={
       'https://www.google.com/maps/place/Danaus+School/@20.6160043,-100.3804581,17z/data=!3m1!4b1!4m6!3m5!1s0x85d35c745b968ca5:0x6997a2ca4ca0e68e!8m2!3d20.6160043!4d-100.3804581!16s%2Fg%2F11g9ntycg8?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D' +
@@ -65,7 +66,7 @@ function App() {
     target="_blank"
     rel="noopener noreferrer"
   >
-<p className="l01">DANAUS SCHOOL</p>      
+    
 <img
       src="/danas.png"
       alt="Ver en Google Maps"
