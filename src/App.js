@@ -35,7 +35,7 @@ function App() {
   href={
     `https://calendar.google.com/calendar/render?action=TEMPLATE` +
     `&text=${encodeURIComponent('Cumpleaños de Daniela Nicole')}` +
-    `&dates=${'20250528'}/${'20250528'}` +           // evento todo el día 5 de junio 
+    `&dates=${'20250529'}/${'20250529'}` +           // evento todo el día 5 de junio 
     `&details=${encodeURIComponent('¡No faltes a la celebración!')}` +
     `&location=${encodeURIComponent('')}`
   }
