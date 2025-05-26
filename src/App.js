@@ -23,7 +23,11 @@ function App() {
 
  <p><h1>FECHA Y HORA</h1></p> 
  <p className="l01">Jueves 29 de Mayo | 9:30 am</p>
- 
+ <img
+      src="/10.png"
+      alt="Ver en Google Maps"
+      className="map-btn"
+/>
  <a
   href={
     `https://calendar.google.com/calendar/render?action=TEMPLATE` +
