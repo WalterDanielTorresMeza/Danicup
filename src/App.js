@@ -12,7 +12,12 @@ function App() {
    alt="Animación celebración"
    className="namenicole"
  />
-
+ <img
+      src="/la.png"
+      alt="Ver en Google Maps"
+      className="map-btn"
+/>
+     
 <p className="l01">Te invito a celebrar mis 6 años</p>
  <br />
  <img
@@ -23,11 +28,6 @@ function App() {
 
  <p><h1>FECHA Y HORA</h1></p> 
  <p className="l01">Jueves 29 de Mayo | 9:30 am</p>
- <img
-      src="/la.png"
-      alt="Ver en Google Maps"
-      className="map-btn"
-/>
  <a
   href={
     `https://calendar.google.com/calendar/render?action=TEMPLATE` +
