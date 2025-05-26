@@ -42,7 +42,7 @@ function App() {
     alt="Agregar al calendario"
     className="calendar-btn"
   />
-</a>
+
       
 <br />
 <br />
@@ -59,7 +59,7 @@ function App() {
       alt="Ver en Google Maps"
       className="map-btn"
 />
-</a>
+
  
 <br />
 <img
