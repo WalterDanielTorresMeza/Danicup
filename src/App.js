@@ -2,32 +2,27 @@ import React from 'react';
 import './App.css';
 import Countdown from './Countdown';
 
-
 function App() {
   return (
     <div className="contenedor">
-      <div className="invitacion">
+    <div className="invitacion">
   <img
    src="./dani.png"
    alt="Animación celebración"
    className="namenicole"
- />
+  />
 
 <p className="l01">Te invito a celebrar mis 6 años</p>
-
 <br />
-
 <img
    src="/aa.png"
    alt="Animación celebración"
    className="li"
  />
-
+     
  <br />
-
  <br />
-
-
+     
  <p><h1>FECHA Y HORA</h1></p> 
  <p className="l01">Jueves 29 de Mayo | 9:30 am</p>
  
@@ -48,9 +43,10 @@ function App() {
     className="calendar-btn"
   />
 </a>
+      
 <br />
 <br />
-
+      
 <img
    src="/aa.png"
    alt="Animación celebración"
@@ -64,6 +60,7 @@ function App() {
       className="map-btn"
 />
 </a>
+ 
 <br />
 <img
    src="/aa.png"
@@ -78,6 +75,7 @@ function App() {
    className="li"
 />
 <br />
+
 </div>
 </div>
 );
